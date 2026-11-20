@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zinc Bromide Has a Real Place</title>
+<meta name="description" content="A $2.5–3.75B-a-year US niche that LFP can't serve well: 10–15 GWh a year by 2030. Market, technology and policy for non-lithium storage.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Zinc bromide has a real place">
+<meta property="og:description" content="A $2.5–3.75B-a-year US niche that LFP can't serve well: 10–15 GWh a year by 2030.">
+<meta property="og:url" content="https://urbanscribe.github.io/artisan-research-public/zinc-bromide/">
+<meta property="og:image" content="https://urbanscribe.github.io/artisan-research-public/zinc-bromide/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Zinc bromide has a real place">
+<meta name="twitter:description" content="A $2.5–3.75B-a-year US niche that LFP can't serve well: 10–15 GWh a year by 2030.">
+<meta name="twitter:image" content="https://urbanscribe.github.io/artisan-research-public/zinc-bromide/og.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* VOICE work: an investment research note, financial-newspaper graphics desk
+   IDEA a desk note on one bet: the author's text kept whole, fact-checked in the margin like a copy editor's proof
+   PICTURE the 2030 US storage market drawn as 110 one-GWh squares, with the 10-15 GWh non-lithium niche in bromine red
+   COLOUR white ground, ink, bromine red for zinc bromide, deep teal for policy, slate for lithium
+   TYPE Libre Caslon Text for titles and big figures, Inter for text and labels
+   LAYOUT laptop: title across, unit chart 2/3 with figures column 1/3; text column + margin notes below; phone: stacked */
+:root{color-scheme:light dark;
+--bg:light-dark(#ffffff,#0e1215);--ink:light-dark(#14161a,#e8ecef);--muted:light-dark(#5b636b,#9aa5ae);
+--rule:light-dark(#dfe3e6,#2a3238);--panel:light-dark(#f5f6f7,#161c20);
+--br:light-dark(#b3261e,#ff6b5e);--brs:light-dark(#f6dcd9,#3a1c1a);
+--teal:light-dark(#0b5d63,#4fc1c6);--teals:light-dark(#d7ecec,#14302f);
+--li:light-dark(#7d8a96,#7f8d99);--lis:light-dark(#e6e9ec,#242c32)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+html{scroll-padding-top:72px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16.5px/1.6 Inter,system-ui,sans-serif;overflow-x:clip}
+.band{padding-block:clamp(28px,4vw,60px);padding-left:max(5vw,16px);padding-right:max(5vw,16px)}
+.wrap{max-width:1240px;margin:0 auto}
+h1,h2,h3{font-family:"Libre Caslon Text",Georgia,serif;font-weight:700;letter-spacing:-.02em;line-height:1.08;text-wrap:balance;margin:0}
+h1{font-size:clamp(32px,4.6vw,52px)}
+h2{font-size:clamp(26px,3.2vw,38px);margin-bottom:10px}
+h3{font-size:20px;margin:0 0 6px}
+p{margin:0 0 14px}
+.dek{font-size:clamp(17px,1.6vw,20px);color:var(--muted);max-width:62ch;margin-top:14px}
+.dek b{color:var(--ink)}
+.meta{font-size:13px;color:var(--muted);margin-top:12px}
+.hero{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:clamp(20px,3vw,40px);margin-top:28px;align-items:stretch}
+.panel{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:18px}
+.units{display:grid;grid-template-columns:repeat(16,minmax(0,1fr));gap:5px;margin:16px 0 14px}
+.units i{aspect-ratio:1;border-radius:2px;background:var(--lis)}
+.units i.n{background:var(--br)}
+.units i.h{background:repeating-linear-gradient(135deg,var(--br) 0 3px,var(--brs) 3px 6px)}
+.key{display:flex;flex-wrap:wrap;gap:14px;font-size:13px;color:var(--muted)}
+.key span::before{content:"";display:inline-block;width:12px;height:12px;border-radius:2px;margin-right:6px;vertical-align:-1px;background:var(--c)}
+.figs{display:grid;gap:0}
+.fg{padding:12px 0;border-bottom:1px solid var(--rule)}
+.fg:last-child{border-bottom:0}
+.fg b{display:block;font-family:"Libre Caslon Text",Georgia,serif;font-size:clamp(28px,3vw,38px);line-height:1.05;color:var(--c,var(--ink))}
+.fg span{font-size:14px;color:var(--muted)}
+nav.toc{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(6px);border-block:1px solid var(--rule)}
+nav.toc .scroll{display:flex;gap:4px;max-width:1240px;margin:0 auto;padding:6px max(5vw,16px);overflow-x:auto}
+nav.toc a{flex:none;color:var(--ink);text-decoration:none;font-size:14px;font-weight:600;padding:10px 12px;border-radius:6px}
+nav.toc a:hover,nav.toc a:focus-visible{background:var(--panel);outline:2px solid var(--teal);outline-offset:-2px}
+.sum{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:clamp(20px,3vw,40px)}
+.sum ol{margin:0;padding-left:22px}
+.sum li{margin-bottom:10px}
+.sum li::marker{font-weight:700;color:var(--br)}
+.score{width:100%;border-collapse:collapse;font-size:15px}
+.score th,.score td{text-align:left;padding:9px 6px;border-bottom:1px solid var(--rule);vertical-align:top}
+.score th{font-size:13px;color:var(--muted);font-weight:600}
+.v{font-weight:700;white-space:nowrap}
+.v.w{color:var(--teal)}.v.l{color:var(--br)}.v.m{color:var(--muted)}
+.legend{display:flex;flex-wrap:wrap;gap:10px 22px;font-size:14px;color:var(--muted);margin-top:18px;padding-top:14px;border-top:1px solid var(--rule)}
+.sec{border-top:1px solid var(--rule)}
+.sec .lead{font-size:18px;color:var(--muted);max-width:70ch;margin-bottom:24px}
+.sec .lead b{color:var(--ink)}
+.row{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:clamp(18px,3vw,40px);margin-bottom:26px;align-items:start}
+.orig{border-left:3px solid var(--ink);padding-left:18px;font-size:17px;max-width:70ch}
+.orig p{margin-bottom:12px}
+.orig strong{font-weight:700}
+.tag{display:inline-block;font-size:12.5px;font-weight:700;padding:2px 8px;border-radius:4px;margin-bottom:8px}
+.tag.o{background:var(--ink);color:var(--bg)}
+.tag.c{background:var(--teals);color:var(--teal)}
+aside.notes{font-size:14.5px;line-height:1.5}
+.note{padding:10px 12px;border-radius:8px;background:var(--panel);border:1px solid var(--rule);margin-bottom:10px}
+.note b{font-weight:700}
+.ex{margin:6px 0 34px}
+.ex h3{font-size:clamp(19px,1.9vw,23px)}
+.ex .src{font-size:13px;color:var(--muted);margin-top:10px}
+.exg{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:clamp(18px,3vw,36px)}
+.bars{display:grid;grid-template-columns:max-content minmax(0,1fr) max-content;gap:8px 12px;align-items:center;margin-top:14px;font-size:14.5px}
+.bars .t{height:22px;background:var(--panel);border-radius:3px;position:relative;overflow:hidden}
+.bars .t i{position:absolute;top:0;bottom:0;background:var(--c,var(--li));border-radius:3px}
+.bars .val{font-variant-numeric:tabular-nums;font-weight:600;white-space:nowrap;text-align:right}
+.bars .lb{white-space:nowrap}
+.cols{display:flex;align-items:flex-end;gap:10px;height:220px;margin-top:16px;border-bottom:1px solid var(--ink);padding-top:22px}
+.cols div{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:100%;position:relative}
+.cols i{display:block;width:100%;max-width:64px;background:var(--c,var(--teal));border-radius:3px 3px 0 0}
+.cols em{font-style:normal;font-size:13.5px;font-weight:700;margin-bottom:4px;white-space:nowrap}
+.cols+.xl{display:flex;gap:10px;font-size:13px;color:var(--muted);margin-top:6px}
+.cols+.xl span{flex:1;text-align:center}
+.fig{position:relative;min-height:300px}
+.fig>svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+svg text{font:13.5px Inter,sans-serif;fill:var(--ink);paint-order:stroke;stroke:var(--bg);stroke-width:4px}
+.dbl{display:grid;grid-template-columns:minmax(0,15em) minmax(0,1fr) max-content;gap:12px 14px;align-items:center;margin-top:16px;font-size:14.5px}
+.dbl .tr{position:relative;height:30px;background:repeating-linear-gradient(90deg,var(--rule) 0 1px,transparent 1px 25%);border-radius:3px}
+.dbl .band{position:absolute;top:4px;bottom:4px;background:var(--lis);border:1px solid var(--li);border-radius:3px;padding:0}
+.dbl .dot{position:absolute;top:50%;width:16px;height:16px;margin:-8px 0 0 -8px;border-radius:50%;background:var(--br);border:2px solid var(--bg)}
+.dbl .dv{position:absolute;top:-2px;font-size:13px;font-weight:700;color:var(--br);transform:translateX(-50%);white-space:nowrap;line-height:1}
+.dbl .gp{font-weight:700;white-space:nowrap;font-variant-numeric:tabular-nums}
+.dax{display:grid;grid-template-columns:minmax(0,15em) minmax(0,1fr) max-content;gap:14px;font-size:13px;color:var(--muted);margin-top:6px}
+.matrix{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,210px),1fr));gap:12px;margin-top:14px}
+.cell{border-radius:10px;padding:14px;border:1px solid var(--rule)}
+.cell.w{background:var(--teals);border-color:transparent}
+.cell.l{background:var(--brs);border-color:transparent}
+.cell h4{margin:0 0 4px;font-size:16px}
+.cell p{font-size:14px;margin:0;color:var(--ink)}
+.cell .v{display:block;margin-bottom:6px;font-size:13px}
+.scroll{overflow-x:auto}
+table.t2{width:100%;border-collapse:collapse;font-size:15px;margin-top:12px}
+.t2 th,.t2 td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--rule);vertical-align:top}
+.t2 th{font-size:13px;color:var(--muted);font-weight:600}
+.t2 td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.tl{list-style:none;margin:14px 0 0;padding:0;position:relative}
+.tl::before{content:"";position:absolute;left:96px;top:6px;bottom:6px;width:2px;background:var(--rule)}
+.tl li{display:grid;grid-template-columns:84px minmax(0,1fr);gap:36px;padding:8px 0;position:relative}
+.tl li::after{content:"";position:absolute;left:91px;top:15px;width:12px;height:12px;border-radius:50%;background:var(--bg);border:3px solid var(--c,var(--li))}
+.tl time{font-weight:700;white-space:nowrap;text-align:right;font-variant-numeric:tabular-nums}
+.tl li.next time{color:var(--br)}
+.win{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:4px;margin-top:16px}
+.win div{padding:12px 6px;text-align:center;border-radius:4px;font-size:13.5px;font-weight:600}
+.win+.xl{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:4px;font-size:13px;color:var(--muted);text-align:center;margin-top:6px}
+.watch{counter-reset:w}
+.concl{font-family:"Libre Caslon Text",Georgia,serif;font-size:clamp(20px,2.2vw,26px);line-height:1.35;max-width:46ch;margin:6px 0 22px}
+.src-list{font-size:14px;columns:2 320px;column-gap:40px}
+.src-list li{break-inside:avoid;margin-bottom:6px}
+a{color:var(--teal)}
+footer{font-size:13px;color:var(--muted)}
+@media(max-width:900px){.hero,.sum,.row{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:600px){.bars{grid-template-columns:minmax(0,1fr) max-content;row-gap:4px}.bars .lb{grid-column:1/-1;white-space:normal;margin-top:6px}.dbl .dv{top:7px!important;transform:translateX(12px)}.dbl,.dax{grid-template-columns:minmax(0,1fr) max-content}.dbl>span:first-child,.dbl>span:nth-child(3n+1){grid-column:1/-1;margin-bottom:-6px;font-weight:600}.dax>span:first-child{display:none}table{font-size:13px}.t2 th,.t2 td{padding:6px 4px}.stack thead{display:none}.stack tr{display:grid;padding-block:10px;border-bottom:1px solid var(--rule)}.stack td{display:flex;justify-content:space-between;gap:12px;border:0;padding:3px 0}.stack td::before{content:attr(data-l);color:var(--muted);font-size:12.5px;flex:none;max-width:45%}.units{grid-template-columns:repeat(11,minmax(0,1fr))}.tl::before{left:76px}.tl li{grid-template-columns:64px minmax(0,1fr)}.tl li::after{left:71px}.win div{font-size:11.5px;padding:10px 2px}.orig{padding-left:12px}}
+@media(prefers-reduced-motion:no-preference){.units i.n,.units i.h{animation:pop .5s ease-out both}@keyframes pop{from{opacity:0;transform:scale(.4)}}}
+</style>
+<script>new MutationObserver(()=>{for(const c of document.querySelectorAll('.stack td:not([data-l])')){let i=0,p=c;while(p=p.previousElementSibling)i+=p.colSpan;c.dataset.l=c.closest('table').rows[0].cells[i]?.textContent||''}}).observe(document,{childList:true,subtree:true})</script>
+</head>
+<body>
+
+<header class="band">
+<div class="wrap">
+<h1>Zinc bromide has a real place: a different job, not a cheaper LFP</h1>
+<p class="dek"><b>The niche is small next to the market and large next to Eos.</b> It serves buyers that lithium cannot serve well, where fire code, footprint, climate or FEOC rules take LFP off the table. The open question is whether those rules hold, not whether zinc bromide can beat LFP on $/kWh.</p>
+<p class="meta">Desk note on Eos Energy (EOSE) · 20 November 2026</p>
+<div class="hero">
+ <div class="panel" id="hero-units">
+  <h3>Small for the market, large for Eos</h3>
+  <p style="font-size:14.5px;color:var(--muted);margin:0">The US market adds over 110 GWh a year by 2030. The non-lithium-addressable niche is 10 to 15 GWh of that. Each square is 1 GWh.</p>
+  <div class="units" id="units" aria-label="110 squares, 10 solid red, 5 hatched red"></div>
+  <div class="bars" style="margin:4px 0 14px" id="b-scale"></div>
+  <div class="key"><span style="--c:var(--br)">Niche, low case (10 GWh)</span><span style="--c:repeating-linear-gradient(135deg,var(--br) 0 3px,var(--brs) 3px 6px)">Up to the high case (15 GWh)</span><span style="--c:var(--lis)">Rest of 2030 annual installs</span></div>
+  <p class="src" style="font-size:13px;color:var(--muted);margin:10px 0 0">Market: SEIA/Benchmark ESMO, "over 110 GWh" annual by 2030. Niche: this report's estimate. Eos: Turtle Creek annualized rate in June 2026, Q2 2026 call.</p>
+ </div>
+ <div class="figs panel" id="hero-figs">
+  <div class="fg" style="--c:var(--li)"><b>97%</b><span>of 2026 US installs are lithium-ion, 92% of those LFP</span></div>
+  <div class="fg" style="--c:var(--br)"><b>$2.5–3.75B</b><span>a year: the 10–15 GWh niche at about $250/kWh battery-level prices</span></div>
+  <div class="fg" style="--c:var(--teal)"><b>55% → 75%</b><span>non-FEOC cost share a storage project needs, 2026 to 2030</span></div>
+  <div class="fg"><b>Dec 24 · Dec 31</b><span>DOE bulk-power rules and Treasury FEOC tables are due</span></div>
+ </div>
+</div>
+</div>
+</header>
+
+<nav class="toc" aria-label="Sections"><div class="scroll">
+<a href="#summary">Summary</a><a href="#thesis">Thesis</a><a href="#fit">Where it fits</a><a href="#efficiency">Efficiency and price</a><a href="#hidden">Hidden line item</a><a href="#size">Market size</a><a href="#history">History</a><a href="#policy">Policy</a><a href="#conclusion">Conclusion</a><a href="#sources">Sources</a>
+</div></nav>
+
+<section class="band" id="summary"><div class="wrap">
+<h2>Executive summary</h2>
+<div class="sum">
+ <ol>
+  <li><b>The verdict: yes, it has a place.</b> Zinc bromide is a viable niche technology, not a failed LFP rival. Its buyers are sites where lithium is ruled out or penalised, so it competes on fit, not on $/kWh. Its durable edge is being American-made and non-flammable while the rules favour exactly that.</li>
+  <li><b>Where it wins.</b> Fire-code-constrained indoor and urban sites, weak-grid 8 to 12 hour duty, extreme climates, and procurement that needs US-made, non-FEOC content.</li>
+  <li><b>Where it doesn't compete.</b> Plain 4-hour arbitrage on open land is LFP's market, won on cost and 85–92% efficiency, with sodium-ion coming. On full-depth cycles Eos trails by about 6–13 points against its 79% fleet average. That gap decides LFP's market and matters much less in the niche.</li>
+  <li><b>How big: small for the market, large for Eos.</b> 10–15 GWh a year by 2030 is about a tenth of a 110+ GWh market, but roughly $2.5–3.75B a year at battery-level prices and 7 to 10 times Eos's mid-2026 production run-rate of about 1.5 GWh.</li>
+  <li><b>Price and efficiency.</b> Eos's battery price, about $250/kWh by third-party estimates, is close to US LFP turnkey ($219/kWh, a broader scope) and far below the $449 10-hour benchmark. The efficiency gap narrows on partial and long-duration cycles, the duty that defines the niche.</li>
+  <li><b>The real risks.</b> Whether the rules hold, and whether Eos wins the niche against other non-lithium options (iron-air, vanadium flow, later US-made sodium-ion). Out-competing LFP is not the test. The compliance premium is likely strongest in 2027 to 2029, then contested.</li>
+  <li><b>Next catalysts.</b> DOE's EO 14421 rules (Dec 24) and Treasury's FEOC safe-harbor tables (Dec 31) decide how wide the moat is. BAAJA, which passed the Senate 62–33 on Nov 19, speeds the buildout but does not touch FEOC.</li>
+ </ol>
+ <div>
+  <table class="score" id="scorecard">
+   <thead><tr><th>Use case</th><th>Fit</th><th>Why</th></tr></thead>
+   <tbody>
+    <tr><td>Indoor or urban, NFPA 855 bound</td><td class="v w">Fits</td><td>Density, no propagation</td></tr>
+    <tr><td>Weak grid, 8–12 h</td><td class="v w">Fits</td><td>No mid-life augmentation</td></tr>
+    <tr><td>−20 to +50 °C, no cooling</td><td class="v w">Fits</td><td>Lower auxiliary load</td></tr>
+    <tr><td>Non-FEOC, US-made procurement</td><td class="v w">Fits</td><td>Clears tax and procurement rules</td></tr>
+    <tr><td>Open-land 4 h arbitrage</td><td class="v l">LFP's market</td><td>Cost and efficiency decide</td></tr>
+   </tbody>
+  </table>
+ </div>
+</div>
+</div></section>
+
+<section class="band sec" id="thesis"><div class="wrap">
+<h2>The thesis: a viable niche built on safety and compliance, not on cost</h2>
+<p class="lead"><b>Zinc bromide works. It does a different job from LFP, and its niche lasts as long as the constraints and rules that create it.</b></p>
+<div class="row">
+ <div class="orig">
+  <p>Zinc bromide has a real niche. It's not a fool's errand, but it's a narrow one — and <strong>the width of that niche is the whole bet.</strong></p>
+  <p><strong>Zinc bromide is a compliance product wearing a technology costume.</strong> On chemistry alone it loses to LFP and sodium on every metric that matters for cost. Its only durable edge is that it's American-made and non-flammable in a market where the rules are being written to favor exactly that. So the bet isn't on zinc — it's on whether FEOC and bulk-power restrictions stay tight through twenty twenty-nine. If they do, the niche is real and worth a position. If they loosen, it's a dead end.</p>
+  <p>The verdict on whether to wait: the niche is real but <strong>it's a safety-and-compliance niche, not a cost niche.</strong> That means it grows with regulation and urbanization, not with falling cell prices. If FEOC thresholds and bulk-power rules tighten as expected through twenty twenty-nine, the addressable market for non-lithium US-made storage expands. If they loosen or get challenged, Eos loses its moat and competes purely on chemistry — where it loses on efficiency and cost. <strong>Gross margin at negative fifty-three percent</strong> means they're still subsidizing adoption to build the reference base. The question isn't whether zinc bromide works. It does. It's whether the compliance premium persists long enough for Eos to reach positive margins before sodium and LFP scale closes the gap from below.</p>
+ </div>
+ <aside class="notes">
+  <div class="note"><b>Chemistry.</b> Static zinc-bromide cells scale linearly in $/kWh, like LFP, so they get no cost advantage from longer duration. The edge comes from safety and policy, not physics.</div>
+ </aside>
+</div>
+</div></section>
+
+<section class="band sec" id="fit"><div class="wrap">
+<h2>Where it fits, and where it does not compete</h2>
+<p class="lead">Four jobs where lithium's virtues stop mattering, and one where they decide everything. <b>The niche is defined by the buyer's constraint, not by a price race.</b></p>
+<div class="matrix" id="matrix"></div>
+<div class="ex" id="ex-wf"><h3>Exhibit 1. Four buckets add up to 10–15 GWh a year by 2030</h3><p style="font-size:14.5px;color:var(--muted);margin:0">Non-lithium-addressable US storage demand in 2030, GWh per year. Solid bars are the low case; hatched tops extend to the high case.</p>
+<div class="fig" id="f-wf" style="min-height:400px"><svg id="s-wf" role="img" aria-label="Waterfall: long-duration 3 to 4, C&amp;I 3 to 5, data centers 3 to 4, microgrids 1 to 2, total 10 to 15 GWh a year"></svg></div>
+<div class="scroll"><table class="t2 stack"><thead><tr><th>Bucket</th><th>2030, GWh/yr</th><th>Basis</th></tr></thead><tbody id="wf-t"></tbody></table></div>
+<p class="src">Estimates built from SEIA/Benchmark ESMO Q3–Q4 2026, BNEF US storage outlook (Oct 2026), published C&amp;I and microgrid forecasts, and state LDES procurements. Dollar value at about $250/kWh battery-level pricing.</p></div>
+
+<div class="row" style="margin-top:26px">
+ <div class="orig">
+  <p><strong>Where zinc bromide is a clear choice:</strong> indoor or urban sites where NFPA 855 fire separation kills lithium density. A lithium four-hour system might need two to three times the footprint once you add spacing, suppression, and blast walls. Eos's five hundred megawatt-hours per acre claim matters most exactly there. Second, sites with no grid or weak interconnection where you need eight-to-twelve-hour duration and the mid-life augmentation cost of LFP — replacing a third of your cells at year ten or twelve — compounds into a real penalty. Third, extreme climates, minus twenty to plus fifty with zero active cooling, which is auxiliary load lithium can't match without burning power to stay warm. Fourth, and this is the one that ties back to everything we discussed: <strong>US-made, non-FEOC, IRA-compliant domestic content with a manufacturing credit behind it.</strong> In a market where Chinese cells are being legislated out, a Pennsylvania-made non-lithium system clears procurement and tax hurdles that Korean LFP still has to navigate.</p>
+  <p><strong>Where it's not:</strong> pure four-hour energy arbitrage on open land in Texas or California. There, LFP at two hundred dollars per kilowatt-hour with ninety-plus percent efficiency and a mature supply chain wins on pure math, and sodium is coming to undercut it further. <strong>Eos's seventy-nine to eighty-one percent round-trip efficiency is a structural handicap</strong> in any application where every point of efficiency is a point of revenue.</p>
+ </div>
+ <aside class="notes">
+  <div class="note"><b>Density.</b> Eos's Indensity architecture targets 1 GWh per acre, against about 250 MWh per acre for incumbent systems. See Exhibit 2.</div>
+  <div class="note"><b>LFP price.</b> BNEF's 2025 survey put the US turnkey average at $219/kWh, against $117 globally and $73 in China.</div>
+  <div class="note"><b>Efficiency.</b> The Z3 fleet averaged 79% on a full cycle in Q3 2026. Typical LFP AC efficiency is 85–92%. See the efficiency section below.</div>
+  <div class="note"><b>NFPA 855.</b> The 2026 edition requires large-scale fire testing to show failure does not spread between units. Independent tests of Z3 in June 2026 showed no thermal runaway or propagation.</div>
+ </aside>
+</div>
+<div class="ex" id="ex-acre"><h3>Exhibit 2. Eos packs two to four times the energy per acre of incumbent systems</h3><p style="font-size:14.5px;color:var(--muted);margin:0">Stored energy per acre of site, MWh.</p><div class="bars" id="b-acre"></div><p class="src">Eos Indensity brochure (Jan 2026): incumbents about 250 MWh/acre, Indensity target 1 GWh/acre.</p></div>
+</div></section>
+
+<section class="band sec" id="efficiency"><div class="wrap">
+<h2>Efficiency, degradation and price: the gap is smallest where the niche lives</h2>
+<p class="lead">Field data supports the niche. <b>The efficiency gap is widest on full-depth short cycles, LFP's home turf, and shrinks on the duty cycles that define the niche. Eos's price sits near US LFP, far below the 10-hour zinc benchmark.</b></p>
+<div class="row">
+ <div class="orig">
+  <p><strong>Round-trip efficiency:</strong></p>
+  <p>Fleet data (full cycles): <strong>~79% average on the Z3 fleet</strong> (up from 78% prior quarter). This includes systems not yet fully on DawnOS.</p>
+  <p>Field examples under more standard 20-80-20% SoC cycling show averages around 84.6%, with best cycles reaching the high 80s to low 90s (one 12-hour example at 90.9%). Company materials claim mid-80s to low 90s depending on depth of discharge and duration — higher when you avoid full deep cycles or stretch duration.</p>
+  <p><strong>LFP system-level AC round-trip efficiency is typically 85–92%.</strong> Eos trails on aggressive 4-hour full-depth cycles by roughly 5–10 points. The gap narrows (and can reverse on a TCO basis) in longer-duration or partial-cycle duty cycles where LFP’s cooling load and degradation matter more. Eos’s near-zero auxiliary cooling and claimed ~3.6% degradation over 25 years are the offsets.</p>
+ </div>
+ <aside class="notes">
+  <div class="note"><b>Fleet data.</b> Eos reported a Z3 full-cycle average of 79% in Q3 2026, up from 78% in Q2 (measured over a 20-100-20 SoC window), including units not yet on DawnOS.</div>
+  <div class="note"><b>84.6%.</b> Average across all cycles at a Department of Defense site, with a 4.6-hour average discharge (Q3 2025).</div>
+  <div class="note"><b>Long cycles.</b> Eos reports that the top of its fleet range has crossed 90%, with 10–12 hour discharges approaching the 90s, against 83% at 1 hour.</div>
+  <div class="note"><b>LFP in the field.</b> 85–92% is a specification range. PNNL field tests of utility lithium-ion systems measured 69–91%, depending on power level and auxiliary loads; leaving out auxiliary use during rest adds 3–5 points. Real-world gaps are often smaller than spec gaps.</div>
+  <div class="note"><b>Degradation.</b> Eos specifies less than 4% capacity loss over 25 years, with more than 97% retained and no augmentation. Its 2023 Z3 sheet gave less than 9% over the first 3 years, then zero.</div>
+  <div class="note"><b>Eos price.</b> Eos does not disclose $/kWh. Iceberg Research documented $250–255/kWh from 1Q21 to 2Q24. Q3 2026 pricing dipped on project mix and is expected back at first-half 2026 levels in Q4.</div>
+ </aside>
+</div>
+<div class="ex" id="ex-gap"><h3>Exhibit 3. The efficiency gap is widest in LFP's market and smallest in the niche's</h3><p style="font-size:14.5px;color:var(--muted);margin:0">Eos round-trip efficiency (red dot) against the typical LFP AC range of 85–92% (grey band). The scale runs from 60% to 100%.</p>
+ <div class="dbl" id="gap"></div>
+ <div class="dax"><span></span><span style="display:flex;justify-content:space-between"><span>60%</span><span>70%</span><span>80%</span><span>90%</span><span>100%</span></span><span style="visibility:hidden" class="gp">Gap 0–7 pts</span></div>
+ <p class="src">The gap is the LFP range minus the Eos value. Against the 79% fleet average it is 6–13 points across the full LFP range. Eos values come from Eos's Q3 2025 release and its Q1–Q3 2026 calls; "about 90%" is Eos's description of its best long-duration cycles. LFP range: typical AC specification.</p></div>
+<div class="exg">
+ <div class="ex" id="ex-pts"><h3>Exhibit 4. Every Eos efficiency figure, with its duty cycle</h3>
+ <div class="scroll"><table class="t2 stack"><thead><tr><th>Measure</th><th>RTE</th><th>Duty cycle</th><th>When</th></tr></thead><tbody id="pts"></tbody></table></div>
+ <p class="src">Eos earnings calls (Q1–Q3 2026), Eos Q3 2025 release, CEC-500-2023-052.</p></div>
+ <div class="ex" id="ex-price"><h3>Exhibit 5. Eos's battery price sits near US LFP, far below the 10-hour benchmark</h3><p style="font-size:14.5px;color:var(--muted);margin:0">$/kWh. The bars measure different scopes: read the note below the chart.</p><div class="bars" id="b-price"></div>
+ <p class="src">PNNL-33283 (2022): fully installed 10 MW/10 h zinc system, in 2021 dollars. Eos: Iceberg Research, 1Q21–2Q24, battery (cube) level. LFP: BNEF 2025 turnkey system averages. A cube price leaves out the power conversion and installation that a turnkey price includes, so Eos's real gap to US LFP is wider than the bars show.</p></div>
+</div>
+<div class="ex" id="ex-off"><h3>Exhibit 6. In niche duty, these offset most of what remains</h3>
+<div class="scroll"><table class="t2 stack"><thead><tr><th>Factor</th><th>Eos Z3</th><th>LFP</th><th>Basis</th></tr></thead><tbody id="off"></tbody></table></div></div>
+</div></section>
+
+<section class="band sec" id="hidden"><div class="wrap">
+<h2>The hidden line item: the niche is priced in fire code, not in $/kWh</h2>
+<p class="lead">The cost comparison that matters does not appear in $/kWh. <b>It shows up in fire code, insurance and interconnection.</b></p>
+<div class="row">
+ <div class="orig">
+  <p><strong>Eos's real competitor isn't lithium, it's the insurance and fire-code cost of lithium.</strong> If a utility can show a risk assessor a non-propagating, non-flammable system, the avoided suppression infrastructure and the avoided interconnection delays are worth real money that never shows up in a dollar-per-kilowatt-hour comparison. That's the hidden line item that could make zinc bromide the rational choice in exactly the places where it looks expensive on paper.</p>
+ </div>
+ <aside class="notes">
+  <div class="note"><b>Evidence to watch.</b> Contracts at sites where lithium was ruled out on fire code or footprint, not price. The Google/MN8 West Virginia project (10 MW/100 MWh) and the Golden Dome defense projects are the clearest examples so far.</div>
+  <div class="note"><b>Open question.</b> No public study yet puts a dollar value on avoided suppression and interconnection delay versus LFP.</div>
+ </aside>
+</div>
+</div></section>
+
+<section class="band sec" id="size"><div class="wrap">
+<h2>How big is the niche? A tenth of the market, many times Eos</h2>
+<p class="lead">The market is huge, growing faster than forecast, and almost all LFP. <b>Ten to fifteen GWh a year is small next to 110+, but it is roughly $2.5–3.75B a year and 7 to 10 times Eos's mid-2026 output.</b></p>
+<div class="row">
+ <div class="orig">
+  <p>Total US storage is past <strong>two hundred gigawatt-hours installed</strong>, with SEIA and Benchmark now forecasting seven hundred eight gigawatt-hours cumulative by twenty thirty, and WoodMac sees seven hundred fifteen by twenty thirty-one. Annual additions hit roughly seventy-four gigawatt-hours this year. But <strong>ninety-seven percent of twenty twenty-six installs are lithium-ion, ninety-two percent LFP.</strong> Non-lithium is a rounding error today.</p>
+  <p>The niches break into four buckets. First, <strong>long-duration energy storage</strong> — eight hours and up. Flow batteries are the fastest-growing category in the US at twenty-three point six percent CAGR through twenty thirty-two, but from a tiny base. Vanadium flow is over seventy percent of installed US flow capacity, and Dairyland Power just ordered forty-three megawatt-hours of Invinity units in August. California's LDES mandates and Texas utility contracts are pulling duration up, but the absolute numbers are still low single-digit gigawatt-hours annually. Second, <strong>commercial and industrial behind-the-meter</strong> — the fastest-growing segment overall at twenty-six point five percent CAGR, going from three hundred seventy million to nearly four billion in capex by twenty thirty-five. Urban, indoor, rooftop, and constrained-site deployments live here, where fire code and footprint dominate. Third, <strong>data-center on-site storage</strong> — BNEF sees four point nine gigawatts and seven point four gigawatt-hours this year, rising to six point three gigawatts and eight point four in twenty twenty-seven, with hyperscalers like Google explicitly experimenting with zinc and iron-air for multi-day backup. Fourth, <strong>microgrids and off-grid</strong> — growing at twenty-two percent CAGR, the smallest but most chemistry-agnostic bucket.</p>
+  <p>Add it up generously and the non-lithium-addressable niche is maybe <strong>ten to fifteen gigawatt-hours per year by twenty thirty, out of a hundred-plus.</strong> That's a real market — tens of billions over five years — but it's not a mass market. It's the size of a handful of large utility contracts.</p>
+ </div>
+ <aside class="notes">
+  <div class="note"><b>Market data.</b> SEIA/Benchmark Q4 2026: 215.9 GWh cumulative, 73.8 GWh projected for 2026, lithium-ion over 97% of installs, LFP 92% of lithium-ion.</div>
+  <div class="note"><b>WoodMac.</b> 207 GW / 715 GWh cumulative by 2031, Q3 2026 Energy Storage Monitor.</div>
+  <div class="note"><b>Flow growth.</b> 23.6% a year is a global forecast for 2026–2035 (Astute Analytica); other published flow forecasts range from about 10% to 24%.</div>
+  <div class="note"><b>Dairyland.</b> 43 MWh of Invinity vanadium flow, announced Aug 3, backed by a DOE rural award, rated 700 kW for at least 10 hours, with deliveries from late 2027.</div>
+  <div class="note"><b>C&amp;I and microgrids.</b> Published US commercial storage forecasts run 22–28% a year to 2035, and US C&amp;I storage capacity grew 42% in 2025. US microgrid forecasts run 13–17% a year overall, with the storage segment growing about 22%.</div>
+  <div class="note"><b>Scale.</b> At about $250/kWh, 10–15 GWh a year is roughly $2.5–3.75B a year. Eos's Turtle Creek line reached an annualized rate of about 1.5 GWh in June 2026, so the niche is 7 to 10 times that.</div>
+  <div class="note"><b>Data centers.</b> BNEF expects 2027 to be the peak year, then 66 GWh cumulative by 2036.</div>
+ </aside>
+</div>
+<div class="exg">
+ <div class="ex" id="ex-ann"><h3>Exhibit 7. Annual US installs have nearly tripled since 2023</h3><p style="font-size:14.5px;color:var(--muted);margin:0">GWh installed per year; 2026 and 2030 are forecasts.</p><div class="cols" id="c-ann"></div><div class="xl" id="x-ann"></div><p class="src">SEIA/Benchmark ESMO Q1 and Q4 2026. 2030 is "over 110 GWh".</p></div>
+ <div class="ex" id="ex-rev"><h3>Exhibit 8. Every 2026 forecast revision went up</h3><p style="font-size:14.5px;color:var(--muted);margin:0">SEIA/Benchmark forecast of cumulative US storage by 2030, by report edition, GWh.</p><div class="bars" id="b-rev"></div><p class="src">ESMO Q1–Q4 2026 press releases. Q1 and Q2 were stated as "over 600" and "over 610".</p></div>
+</div>
+<div class="exg">
+ <div class="ex" id="ex-chem"><h3>Exhibit 9. Non-lithium is 3% of 2026 installs: room to grow from a small base</h3><p style="font-size:14.5px;color:var(--muted);margin:0">Share of 2026 US installs by chemistry.</p><div style="display:flex;height:44px;border-radius:6px;overflow:hidden;margin-top:16px" id="chem"></div><div class="key" style="margin-top:10px"><span style="--c:var(--li)">LFP, about 89%</span><span style="--c:color-mix(in srgb,var(--li) 45%,var(--bg))">Other lithium-ion, about 8%</span><span style="--c:var(--br)">Non-lithium, about 3%</span></div><p class="src">ESMO Q4 2026: Li-ion over 97%, LFP 92% of Li-ion (so about 89% of the total).</p></div>
+ <div class="ex" id="ex-dc"><h3>Exhibit 10. Data-center storage grows sixfold in two years</h3><p style="font-size:14.5px;color:var(--muted);margin:0">US on-site data-center battery storage, GWh per year.</p><div class="bars" id="b-dc"></div><p class="src">BloombergNEF US energy storage outlook, Oct 2026.</p></div>
+</div>
+<div class="ex" id="ex-buckets"><h3>Exhibit 11. The four buckets, side by side</h3>
+<div class="scroll"><table class="t2 stack"><thead><tr><th>Bucket</th><th>Size or growth</th><th>Stage</th><th>Why zinc bromide fits</th></tr></thead><tbody id="buckets"></tbody></table></div></div>
+</div></section>
+
+<section class="band sec" id="history"><div class="wrap">
+<h2>History says niches persist, and this one is big enough for one company</h2>
+<p class="lead">Non-dominant technologies survive where their defect stops mattering. <b>The test was never beating lithium, only whether the niche can carry a company.</b></p>
+<div class="row">
+ <div class="orig">
+  <p><strong>History says niches persist.</strong> Lead-acid still owns automotive starting batteries even though lithium-ion took EVs — same energy storage domain, different job, never displaced. Nickel-cadmium survives in aviation where temperature extremes and cycle life beat lithium. Vanadium flow batteries have held a long-duration niche for twenty years without ever threatening lithium on cost. Sodium-sulfur ran grid-scale in Japan since the nineties. Pumped hydro is still ninety percent of global storage capacity. Thin-film solar never matched silicon efficiency but carved out utility-scale land-rich markets where temperature coefficient and manufacturing simplicity mattered more.</p>
+  <p>The pattern is consistent: <strong>the dominant technology wins the mass market, and the non-dominant one survives where its specific defect is irrelevant or its specific virtue is decisive.</strong> Zinc bromide's defect — efficiency — is irrelevant in a backup or long-duration safety application. Its virtue — non-flammability, US manufacturing, no augmentation — is decisive exactly where lithium's virtues don't matter.</p>
+  <p>The risk isn't that niches disappear. <strong>It's that the niche stays too small to carry a public company.</strong> Eos needs the compliance-driven urban and indoor market to be tens of gigawatt-hours, not five. That's the number worth watching.</p>
+ </div>
+ <aside class="notes">
+  <div class="note"><b>Pumped hydro.</b> 201 GW worldwide in 2025, over 90% of the world's long-duration storage (IHA). Its share of all storage by power is falling as batteries grow.</div>
+  <div class="note"><b>Scale.</b> Against Eos, the niche is large: 10–15 GWh a year is 7 to 10 times its mid-2026 run-rate of about 1.5 GWh. Against the bar of "tens of gigawatt-hours" for the compliance-driven market, the four buckets clear it at the low end.</div>
+ </aside>
+</div>
+<div class="ex" id="ex-hist"><h3>Exhibit 12. Six survivors, one rule: they found the job where their defect stops mattering</h3>
+<div class="scroll"><table class="t2 stack"><thead><tr><th>Technology</th><th>Lost the mass market to</th><th>Niche it kept</th><th>Defect made irrelevant</th><th>Virtue made decisive</th></tr></thead><tbody id="hist"></tbody></table></div>
+<p class="src">Each technology kept the job where its weakness stopped mattering.</p></div>
+</div></section>
+
+<section class="band sec" id="policy"><div class="wrap">
+<h2>Policy: the moat is written in Treasury and DOE rules, not in Congress</h2>
+<p class="lead">A Democratic Congress cannot override a veto alone, permitting reform leaves FEOC untouched, and <b>the rules that matter tighten on a fixed schedule.</b></p>
+<div class="row">
+ <div class="orig">
+  <p>On the political side, the picture is more interesting than it looks. <strong>Democrats took both chambers</strong> — fifty-six to forty-four in the Senate, roughly two hundred fifty-eight to one hundred seventy-three in the House, their largest majority since two thousand eight. But Trump is still president through January twenty twenty-nine with the veto, so <strong>nothing passes without bipartisan support or a veto-proof margin Democrats don't have.</strong></p>
+  <p><strong>BAAJA</strong> — the Bipartisan American Affordability and Jobs Act — passed the Senate sixty-two to thirty-three on November nineteenth and is heading to the House in the lame-duck session. Fifteen Democrats voted yes, including Schumer. It's permitting reform: it overhauls NEPA, the Clean Water Act, the Endangered Species Act, and historic preservation law to speed up solar, transmission, gas pipelines, and data centers. It includes "forever permits" that lock approvals in place. Progressive Democrats — Huffman, Tlaib, Wyden, Merkley — opposed it and want to wait for full Democratic control in January. Trump endorsed it. If it passes, it accelerates the buildout of everything including storage, but <strong>it doesn't touch domestic-content rules or FEOC thresholds directly.</strong></p>
+  <p><strong>The FEOC and bulk-power restrictions are the ones that matter for zinc bromide</strong>, and those are executive and statutory, not easily reversed by Congress. OBBBA's storage credit runs full value through twenty thirty-three construction starts, with the material-assistance threshold rising from fifty-five percent in twenty twenty-six to seventy-five by twenty thirty. Section forty-five-X manufacturing credit is intact with its twenty thirty-to-twenty thirty-two phase-out. EO fourteen four twenty-one's DOE implementing rules are due December twenty-fourth — about a month out — and the FAQ explicitly says the key definitions, covered entities, and what counts as foreign-produced are still undecided. Treasury's FEOC safe-harbor tables are due December thirty-first.</p>
+  <p>Democratic priorities for twenty twenty-seven center on rolling back tariffs, oversight of the administration, and affordability. That cuts toward loosening trade restrictions, which would pressure the tariff wall that protects domestic non-lithium makers. But national-security framing around Chinese grid equipment has bipartisan support, and the bulk-power order is an emergency declaration Trump can renew. <strong>The realistic read:</strong> FEOC thresholds keep tightening on schedule through twenty thirty regardless of Congress, the bulk-power rules likely land in December and bite Chinese suppliers, but a Democratic Congress with tariff-rollback ambitions could create pressure to ease the broader trade wall by twenty twenty-eight. <strong>The compliance premium for US-made non-lithium is probably strongest twenty twenty-seven through twenty twenty-nine, then contested.</strong></p>
+ </div>
+ <aside class="notes">
+  <div class="note"><b>Senate.</b> 56–44 Democratic in the 120th Congress; Alaska was the last race called, on Nov 17.</div>
+  <div class="note"><b>House.</b> Democrats had won 257 seats to 172 as of Nov 19 (AP), with a handful still being counted.</div>
+  <div class="note"><b>BAAJA.</b> Passed 62–33 on Nov 19 with no amendments adopted; the House has not yet acted.</div>
+  <div class="note"><b>Schumer.</b> Voted yes on final passage, as he did on each procedural vote.</div>
+  <div class="note"><b>FEOC thresholds.</b> The material-assistance threshold rises 5 points a year, from 55% in 2026 to 75% in 2030 and after. See Exhibit 14.</div>
+  <div class="note"><b>Deadlines.</b> EO 14421, signed Aug 26, gives DOE 120 days to issue rules; covered equipment and countries are not yet defined. The Treasury tables are a statutory deadline.</div>
+  <div class="note"><b>Tariff wall.</b> The Section 301 tariff on Chinese non-EV lithium-ion batteries rose from 7.5% to 25% on Jan 1, 2026, on top of the base duty. BNEF puts the total duty at 40.9%.</div>
+ </aside>
+</div>
+<div class="exg">
+ <div class="ex" id="ex-cong"><h3>Exhibit 13. The 120th Congress: large Democratic majorities, no veto override</h3><p style="font-size:14.5px;color:var(--muted);margin:0">Seats from January 2027 to January 2029, against the two-thirds needed to override a veto. Policy that passes needs Republican votes, so the FEOC and bulk-power rules stay in executive hands.</p><div id="cong"></div><p class="src">AP. House: 257 Democratic seats called as of Nov 19, a handful still being counted.</p></div>
+ <div class="ex" id="ex-macr"><h3>Exhibit 14. The FEOC bar rises every year whatever Congress does</h3><p style="font-size:14.5px;color:var(--muted);margin:0">Minimum share of storage project cost from non-prohibited sources, by construction-start year (%).</p><div class="cols" id="c-macr" style="--c:var(--teal)"></div><div class="xl" id="x-macr"></div><p class="src">OBBBA §7701(a)(52); Treasury Notice 2026-15. The 45X manufacturing credit phases down to 75%, 50% and 25% of full value in 2030–2032 under existing law.</p></div>
+</div>
+<div class="ex" id="ex-cal"><h3>Exhibit 15. Two deadlines in the next six weeks set the width of the moat</h3>
+<ul class="tl" id="cal"></ul></div>
+</div></section>
+
+<section class="band sec" id="conclusion"><div class="wrap">
+<h2>Conclusion: a viable niche, and the rules decide how big it gets</h2>
+<p class="concl">Zinc bromide has a place. It is not a cheaper LFP and does not need to be. It serves buyers lithium cannot serve well, in a niche that is small for the market and large for Eos.</p>
+<div class="row">
+ <div>
+  <p>Zinc bromide does not compete with lithium head-on. Its market is a defined set of sites where fire code, footprint, climate and FEOC rules make LFP's cheaper $/kWh irrelevant, and that set can grow into tens of GWh a year. The policy calendar favours the thesis in the near term: the FEOC thresholds are statutory and rise on schedule, and the bulk-power order is an emergency power the administration controls. The real competition is inside the niche: iron-air for multi-day duty, vanadium flow where footprint is cheap, and later US-made sodium-ion. The longer-dated risk is a trade-policy thaw from 2028.</p>
+  <p><b>Price and efficiency.</b> At the battery level Eos's price is close to US LFP, and its efficiency deficit is largest exactly where it does not compete, on full-depth 4-hour arbitrage. In the niche's duty cycles (partial cycling, long duration, no cooling), the gap narrows to a few points or less, and lower auxiliary load and claimed flat degradation offset part of what remains. That strengthens the economic case at the margin, but the moat is still the rules.</p>
+ </div>
+ <div class="ex" id="ex-win" style="margin:0"><h3>Exhibit 16. The compliance premium window</h3><p style="font-size:14.5px;color:var(--muted);margin:0">How strong the premium for US-made non-lithium is likely to be, by year, given the policy calendar. Qualitative.</p><div class="win" id="win"></div><div class="xl" id="x-win"></div></div>
+</div>
+<div class="ex" id="ex-watch"><h3>What to watch, and what each outcome means</h3>
+<div class="scroll"><table class="t2 stack"><thead><tr><th>Signpost</th><th>When</th><th>Supports the thesis</th><th>Breaks the thesis</th></tr></thead><tbody id="watch"></tbody></table></div></div>
+</div></section>
+
+<section class="band sec" id="sources"><div class="wrap">
+<h2>Sources</h2>
+<ul class="src-list">
+<li><a href="https://seia.org/research-resources/energy-storage-market-outlook-q4-2026/">SEIA/Benchmark, Energy Storage Market Outlook Q4 2026</a></li>
+<li><a href="https://www.energy-storage.news/us-energy-storage-deployments-for-first-nine-months-of-2026-up-20-from-last-year/">Energy-Storage.news, first nine months of 2026 up 20%</a></li>
+<li><a href="https://seia.org/media/17748/esmo-executive-summary-q1-2026.pdf/">SEIA/Benchmark, ESMO Q1 2026 executive summary</a></li>
+<li><a href="https://www.woodmac.com/press-releases/u.s.-energy-storage-market-posts-record-18.9-gwh-in-q2-as-longer-duration-systems-drive-growth">Wood Mackenzie/ACP, US Energy Storage Monitor Q3 2026</a></li>
+<li><a href="https://www.utilitydive.com/news/bnef-ups-us-energy-storage-deployment-forecast-by-30/872870">Utility Dive, BNEF US storage outlook (data centers)</a></li>
+<li><a href="https://www.eose.com/solutions/eos-indensity/">Eos, Indensity (density per acre)</a></li>
+<li><a href="https://equibles.com/stocks/eose/calls/2026-q3">Eos Q3 2026 earnings call transcript (79% fleet RTE, pricing mix)</a></li>
+<li><a href="https://www.fool.com/earnings/call-transcripts/2026/08/13/eos-energy-eose-q2-2026-earnings-call-transcript/">Eos Q2 2026 earnings call transcript (78%, 20-100-20 SoC)</a></li>
+<li><a href="https://investors.eose.com/news-releases/news-release-details/eos-energy-enterprises-delivers-highest-company-quarterly">Eos Q3 2025 release (84.6% DoD site)</a></li>
+<li><a href="https://eose.com/technology/">Eos, Z3 technology (under 4% degradation over 25 years)</a></li>
+<li><a href="https://www.eose.com/wp-content/uploads/2023/10/eos_productsheet_Z3_101023.pdf">Eos, Z3 product sheet 2023 (earlier degradation claim)</a></li>
+<li><a href="https://www.pnnl.gov/main/publications/external/technical_reports/PNNL-27237.pdf">PNNL-27237, utility lithium-ion field efficiency with and without auxiliary loads</a></li>
+<li><a href="https://www.sandia.gov/ess-ssl/wp-content/uploads/2019/07/PNNL-MESA-1-Final-Test-Report_Reduced.pdf">PNNL MESA-1 test report (auxiliary load effect)</a></li>
+<li><a href="https://eosesource.com/">Eos pricing per Iceberg Research, $250–255/kWh</a></li>
+<li><a href="https://www.barchart.com/story/news/2581590/independent-fire-testing-confirms-eos-z3-battery-system-exhibited-no-thermal-runaway-no-sustained-fire-and-no-propagation-under-abuse-testing-company-receives-iso-14001-certification">Eos, independent fire testing and NFPA 855 (Jun 2026)</a></li>
+<li><a href="https://www.energy-storage.news/battery-storage-system-prices-continue-to-fall-sharply-bnef-and-ember-reports-find/">Energy-Storage.news, BNEF 2025 system prices</a></li>
+<li><a href="https://www.energy-storage.news/invinity-sells-43mwh-long-duration-flow-battery-system-to-us-midwest-rural-electric-cooperative/">Energy-Storage.news, Invinity–Dairyland 43 MWh</a></li>
+<li><a href="https://mgrid.org/?p=15010">mgrid, Dairyland order details</a></li>
+<li><a href="https://www.energy-storage.news/feoc-compliance-for-bess-is-a-decade-long-obligation/">Energy-Storage.news, FEOC compliance for BESS</a></li>
+<li><a href="https://www.troutman.com/insights/treasury-and-irs-issue-feoc-material-assistance-guidance/">Troutman, Treasury Notice 2026-15</a></li>
+<li><a href="https://www.pillsburylaw.com/en/news-and-insights/eo-foreign-produced-bulk-power-system.html">Pillsbury, EO 14421</a></li>
+<li><a href="https://www.mcguirewoods.com/client-resources/alerts/2026/9/doe-issues-request-for-information-on-securing-u-s-bulk-power-system-under-executive-order-14421/">McGuireWoods, DOE RFI on EO 14421</a></li>
+<li><a href="https://rollcall.com/2026/11/17/mary-peltola-dan-sullivan-alaska-senate">Roll Call, Peltola wins Alaska (Senate 56 seats)</a></li>
+<li><a href="https://www.wsbtv.com/news/politics/democrats-flipped-9/D2BOROOJZA34BH7KMC35JLKDWM/?outputType=amp">AP, Democrats flipped 9 Senate seats</a></li>
+<li><a href="https://commondreams.org/news/senate-passes-baaja">Common Dreams, BAAJA 62–33 and the 15 Democrats</a></li>
+<li><a href="https://www.cnbc.com/2026/11/20/baaja-bill-senate-passes-permitting-reform.html">CNBC, Senate passes BAAJA</a></li>
+<li><a href="https://www.hydropower.org/publications/2026-world-hydropower-outlook">IHA, 2026 World Hydropower Outlook</a></li>
+<li><a href="https://www.astuteanalytica.com/industry-report/flow-battery-market">Astute Analytica, flow battery market (23.6% CAGR, global)</a></li>
+<li>PNNL-33283, 2022 Grid Energy Storage Technology Cost and Performance Assessment; CEC-500-2023-052; DOE zinc technology strategy assessment</li>
+</ul>
+<footer style="margin-top:18px">Not investment advice. Original analysis by the desk; exhibits and fact checks added 20 Nov 2026.</footer>
+</div></section>
+
+<script>
+{
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+
+/* hero unit grid */
+$('units').innerHTML=Array.from({length:110},(_,i)=>`<i class="${i<10?'n':i<15?'h':''}" style="animation-delay:${i<15?i*40:0}ms"></i>`).join('');
+
+bars('b-scale',[
+ ['Niche by 2030, low to high',10,15,'var(--br)','10–15 GWh'],
+ ['Eos run-rate, June 2026',null,1.5,'var(--ink)','~1.5 GWh']],15);
+
+/* addressable market waterfall */
+const WF=[['Long duration, 8h+',3,4],['C&I behind the meter',3,5],['Data-center on-site',3,4],['Microgrids and off-grid',1,2]];
+const WFB=[['Long duration, 8h+','3–4','Flow and other long-duration storage run at low single-digit GWh a year today; state procurements, such as California\'s up to 2 GW of 12-hour and multi-day storage, push duration up.'],['C&amp;I behind the meter','3–5','US C&amp;I storage installed about 1.3 GWh in Q3 2026 and is forecast to grow 22–28% a year; the fire-code and footprint-constrained share is addressable.'],['Data-center on-site','3–4','BNEF sees 7.4 GWh in 2026 and 8.4 GWh in 2027; multi-hour backup inside or beside buildings is where non-flammable chemistry matters.'],['Microgrids and off-grid','1–2','The smallest bucket and the most chemistry-agnostic; microgrid storage grows about 22% a year.'],['<b>Total</b>','<b>10–15</b>','<b>About 9–14% of 110+ GWh of 2030 installs, roughly $2.5–3.75B a year.</b>']];
+$('wf-t').innerHTML=WFB.map(r=>`<tr><td>${r[0]}</td><td class="n">${r[1]}</td><td>${r[2]}</td></tr>`).join('');
+const sw=$('s-wf');
+const drawWF=()=>{
+ const W=sw.clientWidth,H=sw.clientHeight;if(!W||!H)return;
+ const narrow=W<520,m={l:8,r:narrow?8:150,t:30,b:narrow?62:52},w=W-m.l-m.r,hh=H-m.t-m.b;
+ const n=WF.length+1,slot=w/n,bw=Math.min(narrow?44:96,slot*.62);
+ const y=v=>m.t+hh-(v/16)*hh, x=i=>m.l+slot*i+(slot-bw)/2;
+ let g=`<defs><pattern id="hbr" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="var(--brs)"/><rect width="3" height="6" fill="var(--br)"/></pattern><pattern id="hink" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="var(--lis)"/><rect width="3" height="6" fill="var(--ink)"/></pattern></defs>`;
+ g+=`<line x1="${m.l}" x2="${m.l+w}" y1="${y(0)}" y2="${y(0)}" stroke="var(--ink)"/>`;
+ let cum=0;
+ const lbl=(t,cx)=>{const words=t.split(' ');const lines=[];let cur='';const max=narrow?9:16;words.forEach(wd=>{if((cur+' '+wd).trim().length>max&&cur){lines.push(cur);cur=wd}else cur=(cur+' '+wd).trim()});lines.push(cur);return `<text x="${cx}" y="${y(0)+18}" text-anchor="middle" style="fill:var(--muted);font-size:${narrow?12:13.5}px">${lines.map((l,i)=>`<tspan x="${cx}" dy="${i?15:0}">${l.replace('&','&amp;')}</tspan>`).join('')}</text>`};
+ WF.forEach(([name,lo,hi],i)=>{
+  const x0=x(i),base=cum;
+  g+=`<rect x="${x0}" y="${y(base+lo)}" width="${bw}" height="${y(base)-y(base+lo)}" fill="var(--br)"/>`;
+  g+=`<rect x="${x0}" y="${y(base+hi)}" width="${bw}" height="${y(base+lo)-y(base+hi)}" fill="url(#hbr)"/>`;
+  g+=`<text x="${x0+bw/2}" y="${y(base+hi)-8}" text-anchor="middle" style="font-weight:700">${lo}–${hi}</text>`;
+  cum+=lo;
+  g+=`<line x1="${x0+bw}" x2="${x(i+1)}" y1="${y(cum)}" y2="${y(cum)}" stroke="var(--muted)" stroke-dasharray="3 3"/>`;
+  g+=lbl(name,x0+bw/2);
+ });
+ const xt=x(n-1),hiT=WF.reduce((s,r)=>s+r[2],0);
+ g+=`<rect x="${xt}" y="${y(cum)}" width="${bw}" height="${y(0)-y(cum)}" fill="var(--ink)"/>`;
+ g+=`<rect x="${xt}" y="${y(hiT)}" width="${bw}" height="${y(cum)-y(hiT)}" fill="url(#hink)"/>`;
+ g+=`<text x="${xt+bw/2}" y="${y(hiT)-8}" text-anchor="middle" style="font-weight:700;font-size:15px">${cum}–${hiT}</text>`;
+ g+=`<text x="${xt+bw/2}" y="${y(cum/2)+5}" text-anchor="middle" style="fill:var(--bg);stroke:none;font-weight:700">GWh</text>`;
+ g+=lbl('Addressable market, 2030',xt+bw/2);
+ if(!narrow){const ax=xt+bw+14;g+=`<text x="${ax}" y="${y(12)}" style="font-family:'Libre Caslon Text',Georgia,serif;font-size:30px;font-weight:700">9–14%</text><text x="${ax}" y="${y(12)+22}" style="fill:var(--muted)">of 110+ GWh of</text><text x="${ax}" y="${y(12)+40}" style="fill:var(--muted)">2030 US installs</text><text x="${ax}" y="${y(12)+70}" style="font-weight:700">$2.5–3.75B</text><text x="${ax}" y="${y(12)+88}" style="fill:var(--muted)">a year</text>`;}
+ sw.innerHTML=g;
+};
+const roWF=new ResizeObserver(drawWF);roWF.observe(sw);
+
+/* fit matrix */
+const M=[
+ ['w','Indoor and urban sites','NFPA 855 spacing can add two to three times the footprint for lithium.'],
+ ['w','Weak grid, 8–12 hours','No LFP mid-life augmentation of about a third of the cells.'],
+ ['w','Extreme climates','−20 to +50 °C with no active cooling load.'],
+ ['w','US-made, non-FEOC','Clears tax and procurement hurdles that imported LFP must navigate.'],
+ ['l','Open-land 4-hour arbitrage','Not zinc bromide\'s fight: LFP near $200/kWh and 85–92% efficiency win on pure math.']];
+$('matrix').innerHTML=M.map(([k,h,p])=>`<div class="cell ${k}"><span class="v ${k}">${k==='w'?'Zinc bromide fits':'LFP\'s market'}</span><h4>${h}</h4><p>${p}</p></div>`).join('');
+
+/* generic bar rows: [label, lo, hi, color, valueText] */
+function bars(el,rows,max){
+ $(el).innerHTML=rows.map(([l,lo,hi,c,t])=>{
+  const a=lo==null?hi/max*100:lo/max*100,b=hi/max*100;
+  return `<span class="lb">${l}</span><span class="t"><i style="left:0;width:${a}%;--c:${c}"></i>${lo==null?'':`<i style="left:${a}%;width:${b-a}%;--c:${c};opacity:.45"></i>`}</span><span class="val">${t}</span>`}).join('');
+}
+const BR='var(--br)',LI='var(--li)',TE='var(--teal)',LS='color-mix(in srgb,var(--br) 55%,var(--bg))';
+bars('b-acre',[
+ ['Incumbent systems',null,250,LI,'250'],
+ ['Eos current claim',null,500,LS,'500'],
+ ['Eos Indensity target',null,1000,BR,'1,000']],1000);
+bars('b-rev',[
+ ['Q1 2026 edition',null,600,LI,'600+'],
+ ['Q2 2026 edition',null,610,LI,'610+'],
+ ['Q3 2026 edition',null,683,LI,'683'],
+ ['Q4 2026 edition',null,708,TE,'708'],
+ ['WoodMac, by 2031',null,715,LS,'715']],715);
+bars('b-dc',[
+ ['2025',null,1.4,LI,'1.4 GWh'],
+ ['2026 forecast',null,7.4,TE,'7.4 GWh'],
+ ['2027 forecast',null,8.4,TE,'8.4 GWh']],8.4);
+
+/* efficiency gap dumbbell, scale 60-100 */
+const P=v=>(v-60)/40*100;
+const G=[['Full-depth cycle, fleet average',79,'6–13 pts'],['Fast fluctuation, Indensity test',81,'4–11 pts'],['1-hour discharge',83,'2–9 pts'],['Partial cycling, DoD site (4.6 h avg)',84.6,'0–7 pts'],['Best long-duration cycles',90,'About even']];
+$('gap').innerHTML=G.map(([l,v,g])=>`<span>${l}</span><span class="tr"><span class="band" style="left:${P(85)}%;width:${P(92)-P(85)}%"></span><span class="dot" style="left:${P(v)}%"></span><span class="dv" style="left:${P(v)}%;top:-16px">${v===90?'~90':v}%</span></span><span class="gp">${g}</span>`).join('');
+
+/* efficiency data points */
+const D=[['Z3 fleet average','79%','Full cycle, all units','Q3 2026','ok'],['Z3 fleet average','78%','20-100-20 SoC window','Q2 2026','ok'],['Indensity test','81%','Fast fluctuation, 147 cycles','Q3 2026','ok'],['Short discharge','83%','1-hour','Q1 2026','ok'],['DoD site average','84.6%','All cycles, 4.6 h average','Q3 2025','df'],['Top of fleet range','Above 90%','Long duration','Q2 2026','ok'],['Older generation (Gen 2.3)','75%','CEC field test','2023','ok']];
+$('pts').innerHTML=D.map(r=>`<tr><td>${r[0]}</td><td class="n">${r[1]}</td><td>${r[2]}</td><td style="white-space:nowrap">${r[3]}</td></tr>`).join('');
+
+/* price */
+bars('b-price',[
+ ['Zinc, 10 h installed (PNNL, 2021)',null,449,LS,'$449'],
+ ['Eos battery price (third party)',250,255,BR,'$250–255'],
+ ['US LFP turnkey (BNEF 2025)',null,219,LI,'$219'],
+ ['Global LFP turnkey (BNEF 2025)',null,117,LI,'$117']],449);
+
+/* offsets */
+const O=[['Auxiliary load','About 2% of delivered energy (forced air)','About 7% (HVAC)','Eos claim'],['Capacity fade','Less than 4% over 25 years; no augmentation','About a third of cells replaced at year 10–12','Eos claim; industry practice'],['Temperature','−20 to +50 °C with no active cooling','Needs heating and cooling','Eos 10-K'],['Fire','No thermal runaway or propagation in June 2026 tests','NFPA 855 spacing and suppression','Independent test commissioned by Eos']];
+$('off').innerHTML=O.map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join('')}</tr>`).join('');
+
+/* vertical columns */
+function cols(el,xl,rows,max,suffix){
+ $(el).innerHTML=rows.map(([l,v,c,t])=>`<div><em>${t??v+suffix}</em><i style="height:${v/max*82}%;${c?'--c:'+c:''}"></i></div>`).join('');
+ $(xl).innerHTML=rows.map(r=>`<span>${r[0]}</span>`).join('');
+}
+cols('c-ann','x-ann',[['2023',27,LI],['2024',45,LI],['2025',57.6,LI,'57.6'],['2026F',73.8,TE,'73.8'],['2030F',110,TE,'110+']],110,'');
+cols('c-macr','x-macr',[['2026',55],['2027',60],['2028',65],['2029',70],['2030+',75]],100,'%');
+
+/* chemistry strip */
+$('chem').innerHTML=[[89,'var(--li)'],[8,'color-mix(in srgb,var(--li) 45%,var(--bg))'],[3,'var(--br)']].map(([w,c])=>`<div style="width:${w}%;background:${c}"></div>`).join('');
+
+/* buckets */
+const B=[
+ ['Long-duration (8 h+)','Flow at 23.6% CAGR to 2032; low single-digit GWh a year','Small base','Duration without augmentation'],
+ ['C&amp;I behind the meter','26.5% CAGR; $370M to about $4B capex by 2035','Fastest-growing','Fire code and footprint dominate'],
+ ['Data-center on-site','7.4 GWh in 2026, 8.4 GWh in 2027 (BNEF)','Early, peaking 2027','Hyperscalers testing zinc for backup'],
+ ['Microgrids and off-grid','22% CAGR','Smallest','Most chemistry-agnostic']];
+$('buckets').innerHTML=B.map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join('')}</tr>`).join('');
+
+/* history */
+const H=[
+ ['Lead-acid','Lithium-ion (EVs)','Automotive starting','Energy density','Cost, cold cranking'],
+ ['Nickel-cadmium','Lithium-ion','Aviation','Weight','Temperature range, cycle life'],
+ ['Vanadium flow','Lithium-ion','Long duration, 20 years','Cost','Duration, longevity'],
+ ['Sodium-sulfur','Lithium-ion','Grid scale in Japan','Hot operation','Scale, duration'],
+ ['Pumped hydro','Batteries (new builds)','Bulk long-duration storage','Siting','Scale, life'],
+ ['Thin-film solar','Crystalline silicon','Land-rich utility sites','Efficiency','Temperature coefficient, simple manufacturing'],
+ ['<b>Zinc bromide</b>','<b>LFP</b>','<b>Backup, safety-bound, long-duration</b>','<b>Efficiency</b>','<b>Non-flammable, US-made, no augmentation</b>']];
+$('hist').innerHTML=H.map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join('')}</tr>`).join('');
+
+/* congress */
+const C=[['Senate',56,100,67],['House',257,435,290]];
+$('cong').innerHTML=C.map(([n,d,t,v])=>`<div style="margin-top:16px"><div style="display:flex;justify-content:space-between;font-size:14.5px"><b>${n}</b><span><b style="color:var(--teal)">${d}</b> Democratic of ${t} · override needs ${v}</span></div><div style="position:relative;height:26px;background:var(--lis);border-radius:4px;margin-top:6px"><div style="position:absolute;left:0;top:0;bottom:0;width:${d/t*100}%;background:var(--teal);border-radius:4px"></div><div style="position:absolute;left:${v/t*100}%;top:-6px;bottom:-6px;border-left:2px dashed var(--ink)"></div></div><div style="font-size:13px;color:var(--muted);margin-top:4px;text-align:right">${v-d} seats short of two-thirds</div></div>`).join('');
+
+/* calendar */
+const T=[
+ ['Aug 26','EO 14421 signed: bulk-power emergency; DOE may bar foreign-adversary grid equipment',TE],
+ ['Nov 3','Midterms: Democrats win both chambers',LI],
+ ['Nov 19','BAAJA passes Senate 62–33; heads to House lame duck',LI],
+ ['Dec 24','DOE EO 14421 implementing rules due: covered entities and equipment defined',BR,1],
+ ['Dec 31','Treasury FEOC safe-harbor tables due',BR,1],
+ ['Jan 2027','120th Congress seated with Democratic majorities',LI],
+ ['Feb 2027','EO 14421 federal procurement (FAR) recommendations due',TE],
+ ['2030','MACR reaches 75%; 45X begins phase-down',TE],
+ ['2033','Last construction-start year for the full-value storage credit',TE]];
+$('cal').innerHTML=T.map(([d,t,c,n])=>`<li class="${n?'next':''}" style="--c:${c}"><time>${d}</time><span>${n?'<b>':''}${t}${n?'</b>':''}</span></li>`).join('');
+
+/* premium window */
+const W=[['2026','Building',15],['2027','Strongest',95],['2028','Strongest',95],['2029','Strongest',90],['2030','Contested',45],['2031','Contested',35]];
+$('win').innerHTML=W.map(([y,l,s])=>`<div style="background:color-mix(in srgb,var(--teal) ${s}%,var(--panel));color:${s>60?'var(--bg)':'var(--ink)'}">${l}</div>`).join('');
+$('x-win').innerHTML=W.map(w=>`<span>${w[0]}</span>`).join('');
+
+/* watch list */
+const R=[
+ ['DOE EO 14421 rules','Dec 24, 2026','Broad definition of covered entities that includes storage and inverters','Narrow scope, long grandfathering, or court challenge'],
+ ['Treasury FEOC safe-harbor tables','Dec 31, 2026','Cell and module weights that make Chinese-cell LFP fail the MACR','Generous cost shares that let imported cells pass'],
+ ['Fleet efficiency','Each quarter','Full-cycle fleet average climbs from 79% toward the mid-80s as DawnOS rolls out','Stalls near 79%'],
+ ['Non-price bookings','Each quarter','Wins at sites where lithium was ruled out on fire code or footprint','Wins only where Eos was cheapest'],
+ ['Niche size','2027–2028','Compliance-driven demand in the tens of GWh a year','Stuck near five GWh'],
+ ['Niche rivals','2027–2029','Eos wins the fire-code and footprint-bound sites','Iron-air, flow or US-made sodium-ion take them'],
+ ['Trade policy','2027–2028','Bipartisan national-security framing holds','Tariff rollback eases the wall around imports']];
+$('watch').innerHTML=R.map(r=>`<tr>${r.map((c,i)=>`<td${i===1?' style="white-space:nowrap"':''}>${c}</td>`).join('')}</tr>`).join('');
+
+}
+</script>
+</body>
+</html>
